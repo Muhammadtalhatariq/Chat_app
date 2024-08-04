@@ -1,9 +1,9 @@
 import React from 'react';
-
+import Message from "../commponent/Message"
 const Messages = () => {
   return (
-    <div>
-      messages
+    <div className='messages h-[82%] overflow-y-scroll '>
+     <Message/> 
     </div>
   );
 }
